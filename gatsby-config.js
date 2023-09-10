@@ -9,16 +9,13 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `ducdev's blog`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Duc Le`,
+      summary: `who lives in HCMC and  currently works at NAB Innovation Centre Vietnam as a Software Engineer.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
-    social: {
-      twitter: `kylemathews`,
-    },
+    description: `A blog site for taking notes in a concise way of what I learned in tech.`,
+    siteUrl: `https://ducdev.netlify.app/`,
   },
   plugins: [
     `gatsby-plugin-image`,
@@ -102,7 +99,7 @@ module.exports = {
               }
             }`,
             output: "/rss.xml",
-            title: "Gatsby Starter Blog RSS Feed",
+            title: "ducdev's blog RSS Feed",
           },
         ],
       },
@@ -110,8 +107,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `Gatsby`,
+        name: `ducdev's blog`,
+        short_name: `ducdev's blog`,
         start_url: `/`,
         background_color: `#ffffff`,
         // This will impact how browsers show your PWA/website
